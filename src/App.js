@@ -1,7 +1,5 @@
 import React from "react";
-
-import styles from "./App.module.css";
-import Card from "./Card";
+import List from "./List";
 
 const items = [
   {
@@ -44,13 +42,7 @@ const items = [
 ];
 
 function App() {
-  return (
-    <div className={styles.list}>
-      {items.map((el) => (
-        <Card key={el.id} description={el.description} image={el.image} />
-      ))}
-    </div>
-  );
+  return <List items={items} />;
 }
 
 export default App;
