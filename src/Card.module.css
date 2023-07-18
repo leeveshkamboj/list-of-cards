@@ -1,0 +1,29 @@
+.card {
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0 6px rgba(35, 173, 278, 1);
+}
+
+.image {
+  height: 40%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.description {
+  padding: 10px;
+}
